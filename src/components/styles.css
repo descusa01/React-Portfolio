@@ -252,3 +252,8 @@
 ul {
   list-style: none;
 }
+
+.logo-image {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Keep the aspect ratio */
+}

@@ -11,20 +11,25 @@ import './styles.css';
 
 
 function Home() {
-
-return  (
- <div className="body">
- <Top />
- <Intro/>
-<Profile />
-<Skills />
-<Works />
-<Contactme />
-<Bottom />
- </div>
-
-)
-
-}
+    return (
+      <div className="body">
+        <div id="home">
+          <Intro />
+          <Top />
+          <Profile />
+        </div>
+        <div id="skills">
+          <Skills />
+        </div>
+        <div id="works">
+          <Works />
+        </div>
+        <div id="contactme">
+          <Contactme />
+        </div>
+        <Bottom />
+      </div>
+    );
+  }
 
 export default Home;

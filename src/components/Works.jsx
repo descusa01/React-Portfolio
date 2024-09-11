@@ -38,8 +38,8 @@ return (
   <Carousel.Caption className="translucent-caption">
     {/* <h4><i className="fas fa-star" /> First slide label</h4> */}
     <div className="icon-container">
-      <img src={duda}/>
-      <i className="fa-brands fa-css3-alt" />
+      <img src={duda} className="logo-image"/>
+      <i className="fa-brands fa-css3-alt"/>
     </div>
   </Carousel.Caption>
 </Carousel.Item>
