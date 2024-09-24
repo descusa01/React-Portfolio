@@ -29,6 +29,7 @@ return (
       <i className="fa-brands fa-bootstrap" />
     </div>
   </Carousel.Caption>
+  
 </Carousel.Item>
 
 <Carousel.Item>
@@ -42,6 +43,7 @@ return (
       <i className="fa-brands fa-css3-alt"/>
     </div>
   </Carousel.Caption>
+  
 </Carousel.Item>
 
 <Carousel.Item>
